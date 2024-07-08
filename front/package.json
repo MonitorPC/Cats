@@ -1,16 +1,23 @@
 {
-    "name": "kit_homework_frontend",
-    "version": "1.0.0",
-    "author": "Kirill Khomik <khomikki@yandex-team.ru>",
-    "dependencies": {
-        "express": "latest",
-        "jade": "latest"
-    },
-    "devDependencies": {
-        "@types/express": "^4.17.21",
-        "typescript": "^5.5.3"
-    },
-    "scripts": {
-        "build": "tsc frontend.ts"
-    }
+  "name": "kit_homework_frontend",
+  "version": "1.0.0",
+  "author": "Kirill Khomik <khomikki@yandex-team.ru>",
+  "dependencies": {
+    "express": "latest",
+    "jade": "latest",
+    "node-fetch": "^2",
+    "fs": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "node frontend.js",
+    "build": "tsc frontend.ts"
+  },
+  "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
+  "description": ""
 }

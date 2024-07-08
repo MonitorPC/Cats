@@ -16,6 +16,3 @@ def hello_world():
     else:
         return ''
 
-if __name__ == '__main__':
-    app.run(debug=True, host='::', port='3001')
-
