@@ -1,7 +1,7 @@
 {
-  "name": "kit_homework_frontend",
+  "name": "cats",
   "version": "1.0.0",
-  "author": "Kirill Khomik <khomikki@yandex-team.ru>",
+  "author": "cat",
   "dependencies": {
     "express": "latest",
     "jade": "latest",
@@ -13,8 +13,7 @@
     "typescript": "^5.5.3"
   },
   "scripts": {
-    "start": "node frontend.js",
-    "build": "tsc frontend.ts"
+    "start": "tsc frontend.ts"
   },
   "main": "index.js",
   "keywords": [],
